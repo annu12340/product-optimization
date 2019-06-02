@@ -1,0 +1,222 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #099268;
+	font-family: 'Chivo', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	color: #363636;
+}
+
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 190%;
+}
+
+
+/** MENU */
+
+#menu-wrapper
+{
+	background: #228be6;
+}
+
+#menu {
+	overflow: hidden;
+	height: 100px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	letter-spacing: 1px;
+	padding: 0px 40px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.80em;
+	line-height: 100px;
+	border: none;
+	color: #FFF;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+}
+
+#menu .current_page_item a {
+	background: #1864ab;
+}
+
+	ul.style1
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	ul.style1 li
+	{
+		border-top: solid 1px red;
+		padding: 0.80em 0;
+	}
+	
+	ul.style1 li:first-child
+	{
+		border-top: 0;
+		padding-top: 0;
+	}
+
+	ul.style2
+	{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	ul.style2 li
+	{
+		border-top: solid 1px #E5E5E5;
+		padding: 0.80em 0;
+	}
+	
+	ul.style2 li:first-child
+	{
+		border-top: 0;
+		padding-top: 0;
+	}
+
+	.title
+	{
+		margin-bottom: 2em;
+		text-transform: uppercase;
+    
+	}
+
+	.title h2
+	{
+		font-weight: 400;
+		font-size: 2em;
+		color: #212529;
+	}
+	
+
+#header-wrapper
+{
+	overflow: hidden;
+	background-size: 100%;
+	padding: 6em 0em 2em 0em;
+	background: #333333;
+}
+
+
+	#header 
+	{
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+	}
+
+
+/** WRAPPER */
+
+#wrapper {
+	background: #FFFFFF url(images/bg01.png) repeat;
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+
+/** PAGE */
+
+#page
+{
+	position: relative;
+	overflow: hidden;
+	padding: 6em 0em 5em 0em;
+}
+
+/** CONTENT */
+
+#content
+{
+	float: right;
+	width: 790px;
+}
+
+
+/*********************************************************************************/
+/* Welcome                                                                       */
+/*********************************************************************************/
+
+	#welcome
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+		border-bottom: 1px solid #E5E5E5;
+		text-align: center;
+	}
+	
+	#welcome h2
+	{
+		letter-spacing: 0.20em;
+		text-transform: uppercase;
+		font-size: 2.6em;
+	}
+	
+	#welcome p
+	{
+		font-size: 1.3em;
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+	
+	#footer-wrapper
+	{
+		overflow: hidden;
+		padding: 5em ;
+		background: #1E1B1A;
+    font-size: 29px;
+	}
+
+
+
+
+.col-sm-3 {
+  padding: 40px;
+  font-size: 20px;
+}
+
+.f_title {
+  font-family: "Francois One", sans-serif;
+  font-size: 40px;
+
