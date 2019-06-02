@@ -1,4 +1,4 @@
-# Am I Right? #
+# Choose smart #
 
 
 As consumers, we face a great dilemma in choosing the right product from a wide variety of goods. This application helps the user to analyse the product and arrive at a smarter choice . 
